@@ -34,23 +34,23 @@
 	},
 	"dependencies": {
 		"@types/pug": "^2.0.10",
-		"lodash": "^4.17.21",
+		"lodash": "^4.17.23",
 		"pug": "^3.0.3",
 		"reduce-configs": "^1.1.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@playwright/test": "^1.57.0",
-		"@rsbuild/core": "1.6.10",
-		"@rsbuild/plugin-vue": "1.2.0",
-		"@rslib/core": "^0.18.2",
-		"@types/lodash": "^4.17.21",
+		"@playwright/test": "^1.58.1",
+		"@rsbuild/core": "1.7.2",
+		"@rsbuild/plugin-vue": "1.2.4",
+		"@rslib/core": "^0.19.4",
+		"@types/lodash": "^4.17.23",
 		"@types/node": "^24.10.9",
 		"nano-staged": "^0.9.0",
-		"playwright": "^1.57.0",
+		"playwright": "^1.58.1",
 		"simple-git-hooks": "^2.13.1",
 		"typescript": "^5.9.3",
-		"vue": "^3.5.25"
+		"vue": "^3.5.27"
 	},
 	"peerDependencies": {
 		"@rsbuild/core": ">=1.5.0"
@@ -60,7 +60,7 @@
 			"optional": true
 		}
 	},
-	"packageManager": "pnpm@10.24.0",
+	"packageManager": "pnpm@10.28.2",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
