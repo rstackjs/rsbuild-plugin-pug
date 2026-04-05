@@ -36,23 +36,23 @@
   },
   "dependencies": {
     "@types/pug": "^2.0.10",
-    "lodash": "^4.17.23",
+    "lodash": "^4.18.1",
     "pug": "^3.0.4",
-    "reduce-configs": "^1.1.1"
+    "reduce-configs": "^1.1.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@playwright/test": "^1.58.2",
-    "@rsbuild/core": "1.7.4",
+    "@playwright/test": "^1.59.1",
+    "@rsbuild/core": "1.7.5",
     "@rsbuild/plugin-vue": "1.2.7",
-    "@rslib/core": "^0.20.1",
+    "@rslib/core": "^0.20.3",
     "@types/lodash": "^4.17.24",
-    "@types/node": "^24.12.0",
+    "@types/node": "^24.12.2",
     "nano-staged": "^0.9.0",
-    "playwright": "^1.58.2",
+    "playwright": "^1.59.1",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.2",
-    "vue": "^3.5.31"
+    "vue": "^3.5.32"
   },
   "peerDependencies": {
     "@rsbuild/core": ">=1.5.0"
