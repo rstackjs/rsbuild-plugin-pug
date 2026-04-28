@@ -1,8 +1,8 @@
 import { pluginPug } from '@rsbuild/plugin-pug';
 
 export default {
-	plugins: [pluginPug()],
-	html: {
-		template: './src/index.pug',
-	},
+  plugins: [pluginPug()],
+  html: {
+    template: './src/index.pug',
+  },
 };
