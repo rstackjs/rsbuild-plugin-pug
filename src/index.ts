@@ -99,7 +99,7 @@ export const pluginPug = (options: PluginPugOptions = {}): RsbuildPlugin => ({
 
           state.dependencies.delete(resourcePath);
 
-          // Persis dependencies across builds in case if compilation error occurs
+          // Persist dependencies across builds in case if compilation error occurs
           state.dependencies.set(resourcePath, new Set(dependencies));
 
           if (state.readyToReload === true) {
