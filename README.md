@@ -23,7 +23,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginPug } from "@rsbuild/plugin-pug";
+import { pluginPug } from '@rsbuild/plugin-pug';
 
 export default {
   plugins: [pluginPug()],
@@ -39,7 +39,7 @@ For example, first create a `src/index.pug` file, and point to that file using `
 ```ts title="rsbuild.config.ts"
 export default {
   html: {
-    template: "./src/index.pug",
+    template: './src/index.pug',
   },
 };
 ```
@@ -66,7 +66,7 @@ button.my-button(@click='count++') Count is: {{ count }}
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 export default {
   setup() {
@@ -91,7 +91,7 @@ Used to set the compilation options for Pug. For detailed options, please refer 
 
 ```ts
 const defaultOptions = {
-  doctype: "html",
+  doctype: 'html',
   compileDebug: false,
 };
 ```
@@ -101,7 +101,7 @@ const defaultOptions = {
 ```ts
 pluginPug({
   pugOptions: {
-    doctype: "xml",
+    doctype: 'xml',
   },
 });
 ```
@@ -111,7 +111,7 @@ pluginPug({
 ```ts
 pluginPug({
   pugOptions(config) {
-    config.doctype = "xml";
+    config.doctype = 'xml';
   },
 });
 ```
