@@ -36,18 +36,18 @@
     "reduce-configs": "^1.1.2"
   },
   "devDependencies": {
-    "@playwright/test": "^1.59.1",
-    "@rsbuild/core": "2.0.3",
-    "@rsbuild/plugin-vue": "1.2.7",
-    "@rslib/core": "^0.21.3",
-    "@rslint/core": "^0.5.1",
+    "@playwright/test": "^1.60.0",
+    "@rsbuild/core": "2.0.6",
+    "@rsbuild/plugin-vue": "1.2.8",
+    "@rslib/core": "^0.21.5",
+    "@rslint/core": "^0.5.3",
     "@types/lodash": "^4.17.24",
-    "@types/node": "^25.6.0",
-    "playwright": "^1.59.1",
+    "@types/node": "^25.8.0",
+    "playwright": "^1.60.0",
     "prettier": "^3.8.3",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3",
-    "vue": "^3.5.33"
+    "vue": "^3.5.34"
   },
   "peerDependencies": {
     "@rsbuild/core": "^1.0.0 || ^2.0.0"
