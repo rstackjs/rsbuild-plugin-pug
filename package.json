@@ -2,6 +2,10 @@
   "name": "@rsbuild/plugin-pug",
   "version": "1.3.4",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-pug",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-pug#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-pug/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
