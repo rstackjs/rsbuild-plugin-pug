@@ -21,7 +21,7 @@ export const pluginPug = (options: PluginPugOptions = {}): RsbuildPlugin => ({
     const { compile, compileClientWithDependenciesTracked } =
       await import('pug');
 
-    const pugOptions = reduceConfigs({
+    const pugOptions = await reduceConfigs({
       initial: {
         doctype: 'html',
         compileDebug: false,
