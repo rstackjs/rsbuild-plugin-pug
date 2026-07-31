@@ -37,19 +37,19 @@
     "reduce-configs": "^2.0.1"
   },
   "devDependencies": {
-    "@rsbuild/core": "2.1.5",
+    "@rsbuild/core": "2.1.9",
     "@rsbuild/plugin-vue": "2.0.1",
     "@rslib/core": "^0.23.2",
-    "@rslint/core": "^0.6.5",
-    "@rstest/core": "^0.11.1",
-    "@rstest/playwright": "^0.11.1",
+    "@rslint/core": "^0.7.2",
+    "@rstest/core": "^0.11.5",
+    "@rstest/playwright": "^0.11.5",
     "@types/lodash": "^4.17.24",
     "@types/node": "^25.9.5",
-    "playwright": "^1.61.1",
-    "prettier": "^3.9.5",
+    "playwright": "^1.62.1",
+    "prettier": "^3.9.6",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^7.0.2",
-    "vue": "^3.5.39"
+    "vue": "^3.5.40"
   },
   "peerDependencies": {
     "@rsbuild/core": "^1.0.0 || ^2.0.0"
@@ -59,7 +59,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.13.0",
+  "packageManager": "pnpm@11.18.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
